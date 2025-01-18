@@ -57,7 +57,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 
 .logo:hover {
@@ -89,6 +89,10 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.h-a:hover {
+  color: var(--grey);
+}
+
 .menu-links {
   position: absolute;
   top: 100%;
@@ -98,6 +102,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  border-radius: 15%;
 }
 
 .menu-links a {
@@ -295,7 +300,7 @@ section {
 .arrow-1 {
   position: absolute;
   right: -5rem;
-  bottom: 10rem;
+  bottom: 7rem;
 }
 .details-container {
   padding: 1.5rem;
